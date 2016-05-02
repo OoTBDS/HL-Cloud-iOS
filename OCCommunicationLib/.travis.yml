@@ -1,0 +1,15 @@
+language: objective-c
+xcode_project: OCCommunicationLib/ownCloud iOS library.xcodeproj
+xcode_scheme: ownCloud iOS library
+xcode_sdk: iphonesimulator
+env:
+  global:
+  - secure: hY2h3XSXPAN1jnf2t/i+lBirozVpsOhm0WxRi+msM2NaAxRzsurovRZ9Cjjgb3dPKKomLFAjqWxTZ3vlQy4um93xPXv/UyXdgkaUZ1rWaDRgk7EnlH+SA8uoOfQOEgE5tMSSiM7YRvNf6r4nmKuQNBgqtMoK0HSiUj6DGjImDoM=
+  - secure: NvlNBduCxLf4f+WVAz14Pd/O1gDOVUvqSe8GPKf4axOdvsl8CwDZ5D65DkLbm1205/9q2MTGGKdDiyL5pS7mtxTOzHJIofLyAtO+YEV029Giuk8hv1wQcVHLtsJkBaTStpD9GKkKMvRiXewKtUkU2etpKAo4csQ7U48BQ+hqVc4=
+  - secure: vVzeSFMBDAvcg72i6ACaBS7Azls/1PgKY5qZzWJBZ72t49BVOWfcAxZkFle16lTAzD6l3PkTmpQ3tZ4J9LQS1DRorVjaCpDgdsmz8mF7c8/8PepzWZkjzcgIvfPK1ZHYjzb/UBlYSokBHgH2RjAKfC2c1eqxhkwyGyFnTBBYiqc=
+  - secure: Qp1YP8Dzbe2Vdm64Btm8vfxnOD2v0WW35J5AFLALR4Z9F+Oik799BUEF7h3kGDXZdqp5giGkoQ+6nHMEthB9xzRXgk+RYionuEuekeO71EQyF/83b8hS0auoumnengPSqR3ucJH6+ZD1kMFbHTRpKfj+Grc7zirkKoOxlCpFBd4=
+
+before_install:
+- brew update
+- brew unlink xctool
+- brew install xctool
