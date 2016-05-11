@@ -516,7 +516,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
@@ -556,7 +556,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -576,7 +576,7 @@
 		EA7CC8BB183E11E600B6A4B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Darren White (484B6LEDJ6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DSTROOT = /tmp/OCCommunicationLib.dst;
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -586,7 +586,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ownCloudiOS;
-				PROVISIONING_PROFILE = "8faa9d93-e1b7-4aec-ab4a-783764c307ba";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -595,7 +595,7 @@
 		EA7CC8BC183E11E600B6A4B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Darren White (484B6LEDJ6)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DSTROOT = /tmp/OCCommunicationLib.dst;
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -605,7 +605,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ownCloudiOS;
-				PROVISIONING_PROFILE = "8faa9d93-e1b7-4aec-ab4a-783764c307ba";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
